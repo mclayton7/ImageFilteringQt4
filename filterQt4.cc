@@ -124,7 +124,7 @@ int main(int argc, char **argv)
                     temp = region.back();
                     region.pop_back();
                     //Invert the color:
-                    data[temp] = 0xff - color;
+                    // data[temp] = 0xff - color;
                     //Update the individual Pixel:
                     d.Update((temp % width), (temp/width));
                 }

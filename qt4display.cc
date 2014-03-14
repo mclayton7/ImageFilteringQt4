@@ -281,4 +281,3 @@ void QDisplay::mainClosed()
 {
     closed = true; // Main window has closed
 }
-
